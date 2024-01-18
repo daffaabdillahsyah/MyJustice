@@ -15,7 +15,7 @@ Team Member of InovaVision:
 
 1. Add Depedency to `pubspec.yaml`
 
-``
+```
 dependencies:
   cupertino_icons: ^1.0.2
   google_maps_flutter: ^2.5.3
@@ -33,7 +33,8 @@ dependencies:
   flutter:
     sdk: flutter
   geolocator: ^10.1.0
-  permission_handler: ^11.1.0``
+  permission_handler: ^11.1.0
+```
 
 
 
