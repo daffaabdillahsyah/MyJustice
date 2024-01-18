@@ -13,7 +13,7 @@ Team Member of InovaVision:
 
 # Installing
 
-1. Add Depedency to '''pubspec,yaml'''
+1. Add Depedency to ```pubspec,yaml
 
 
 
