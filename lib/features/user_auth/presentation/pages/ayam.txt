@@ -1,0 +1,26 @@
+bottomNavigationBar: BottomAppBar(
+  elevation: 0.0, // Tambahkan baris ini
+  child: Row(
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    children: [
+      InkWell(
+        onTap: () {
+          // Handle edit action
+        },
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Icon(Icons.edit, color: Colors.grey),
+        ),
+      ),
+      InkWell(
+        onTap: () {
+          // Handle add action
+        },
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Icon(Icons.add, color: Colors.grey),
+        ),
+      ),
+    ],
+  ),
+),
